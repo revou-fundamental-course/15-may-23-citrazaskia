@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas ReVou</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="row">
+            <div class="column1">
+                <span class="title">Katik</span>
+                 <span class="sub-title">Kalkulator Matematik</span>
+                 <div class="main">
+                        <p class="text1">Welcome to Katik</p>
+                        <p class="text2">Hai Sobat,Selamat datang di Katik :] </p>
+                        <p class="text2">Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar </p>
+                        <p class="border1">Persegi</p>
+                        <p class="text3">P.Panjang</p>
+                        <p class="border2">Luas Persegi</p>
+                        <div class="main1">
+                            <img class="persegi" src="persegi.PNG" alt="Persegi">
+                            <div class="text4">Rumus Luas Persegi yaitu:</div>
+                            <p class="text5">L = S x S</p>
+                            <div class="text4">Di mana :</div>
+                            <div class="text4">L = Luas</div>
+                            <div class="text4">S = Sisi</div>
+                            <p class="text6">Hitung Luas Persegi</p>
+                         
+                            <input class="sisi-luas" type="number" name="sisi-luas" id="sisi-luas" placeholder="Nilai sisi"/>
+                             <p id="rumus-luas"></p>
+                            <p id="perhitungan-luas"></p>
+                            <p id="output-luas"></p>
+                            <p><button class="hitung-luas" name="hitung-luas" onclick="hitungLuas()">Hitung</button></p>
+                            <p><input class=rst type="button" onClick="reset1()" value="Reset"> </p>
+                        </div>
+                </div>
+                   </div>
+    <div class="column2">
+        <p class="border3">Keliling Persegi</p>
+        <div class="main2">
+            <img class="persegi" src="persegi.PNG" alt="Persegi">
+            <div class="text4">Rumus Keliling Persegi yaitu:</div>
+            <p class="text5">K = 4 x S</p>
+            <div class="text4">Di mana :</div>
+            <div class="text4">K = Keliling</div>
+            <div class="text4">S = Sisi</div>
+           
+                <p class="text6">Hitung Keliling Persegi</p>
+                <input class="sisi-keliling" type="number" name="sisi-keliling" id="sisi-keliling" placeholder="Nilai sisi"/>
+                <p id="rumus-keliling"></p>
+                <p id="perhitungan-keliling"></p>
+                <p id="output-keliling"></p>
+                <p><button class="hitung-keliling" name="hitung-keliling" onclick="hitungKeliling()">Hitung</button></p>
+                <p><input class=rst type="button" onClick="reset2()" value="Reset"> </p>
+    </div>
+</div>
+    
+    <script src="script.js"></script>
+</main>
+        </body>
+</html>

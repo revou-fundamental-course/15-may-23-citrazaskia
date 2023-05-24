@@ -1,0 +1,155 @@
+body{
+    background-color:lightgrey;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column1 {
+    background-color: rgb(41, 156, 250);
+    text-align: center;
+    padding-top:30px;
+    flex: 50%;
+  }
+  .column2 {
+    background-color:lightgrey;
+    flex: 50%;
+  }
+.title{
+    font-size:30px;
+    font-family:cursive;
+    color:white;
+    font-weight: bold;
+}
+.sub-title{
+    font-size:20px;
+    font-family:cursive;
+    color:lightgrey;
+    font-weight: bold;
+}
+.main{
+    background-color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding:20px 10px;
+    
+}
+.main1{
+    background-color: white;
+    margin-top: 0px;
+    text-align: left;
+    padding:20px 10px;
+    border:1px solid blue;
+}
+.main2{
+    background-color: white;
+    margin-top: 0px;
+    margin-left:10px;
+    margin-right: 10px;
+    text-align: left;
+    padding:20px 10px;
+    border:1px solid blue;
+}
+.persegi{
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    width:15%;
+}
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+}
+
+.border1{
+    background-color: rgb(41, 156, 250);
+    text-align: center;
+    padding: 10px 10px;
+    border-radius:5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text3{
+    color:rgb(7, 128, 241);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.border2{
+    background-color: rgb(41, 156, 250);
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 40px;
+    color: white;
+    font-weight:bold;
+    font-size:22px;
+    font-family:Arial, Helvetica, sans-serif; 
+    
+}
+.border3{
+    background-color: rgb(41, 156, 250);
+    margin-top: 0px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom:0px;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-weight:bold;
+    font-size:22px;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+.text4{
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.text5{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+.text6{
+    text-align:center;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+
+.hitung-luas{
+    color: white;
+    background-color: rgb(30, 81, 248);
+    border-radius: 5px;
+    margin-left: 45%;
+    padding:10px 20px;
+}
+.hitung-keliling{
+    color: white;
+    background-color: rgb(30, 81, 248);
+    border-radius: 5px;
+    margin-left: 45%;
+    text-align: center;
+    padding:10px 20px;
+} 
+.sisi-luas{
+    width:99.2%;
+}
+.sisi-keliling{
+    width:99.2%;
+}
+
+.rst{
+    background-color: orangered;
+    color: white;
+    border-radius:5px;
+    padding:10px 20px;
+    margin-left: 45%;
+    
+}
+
+
+
